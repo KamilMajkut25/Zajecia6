@@ -23,7 +23,7 @@ class Main {
     public static void main(String[] args) {
         while(true) {
             try {
-                int ex = menu();
+                int ex = menu(); 
                 switch(ex) {
                     case 1: exercise1(); break;
                     case 2: exercise2(); break;
